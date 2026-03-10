@@ -147,5 +147,5 @@ This repo demonstrates the same design pattern used while exploring **Cloud Clar
 
 ## Links
 
-- Builder Center article: **[Builder Article Link Placeholder]**
+- Builder Center article: **https://builder.aws.com/content/3ACK4qkwuNBOnrzoujYIGuXHzvL/aideas-cloud-clarity-ai**
 - GitHub repository: `https://github.com/sanjaynela/strands-todo-agent`
