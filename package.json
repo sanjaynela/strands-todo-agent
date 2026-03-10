@@ -1,0 +1,32 @@
+{
+  "name": "strands-todo-agent",
+  "version": "1.0.0",
+  "private": false,
+  "description": "AWS Strands TypeScript sample to-do agent",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "scan-secrets": "bash scripts/scan-secrets.sh"
+  },
+  "keywords": [
+    "aws",
+    "strands",
+    "agents",
+    "typescript",
+    "bedrock"
+  ],
+  "author": "sanjaynela",
+  "license": "MIT",
+  "dependencies": {
+    "@strands-agents/sdk": "^0.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}
